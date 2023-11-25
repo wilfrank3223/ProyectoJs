@@ -1,0 +1,130 @@
+/* Estilo para el cuerpo del documento */
+body {
+    /* Fondo con una imagen que no se repite y se ajusta al tamaño de la ventana */
+    background-image: url('https://i.pinimg.com/originals/f3/06/8c/f3068c195390a519a3e057aa96086bd0.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Márgenes y relleno para el cuerpo del documento */
+    margin: 10px;
+    padding: 20px;
+    /* Familia de fuentes para el texto en el cuerpo */
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker';
+    font-family: Arial, sans-serif;
+    /* Alineación central del texto */
+    text-align: center;
+}
+
+/* Estilos para encabezados h1, h2, h3 */
+h1, h2, h3 {
+    /* Alineación central del texto */
+    text-align: center;
+    /* Color del texto para los encabezados */
+    color: #800080;
+    /* Peso de la fuente */
+    font-weight: 1000000;
+    /* Margen a la izquierda */
+    margin-left: 20px;
+    /* Tamaño de la fuente */
+    font-size: 45px;
+}
+
+/* Estilos para botones */
+button {
+    /* Color de fondo, texto y estilo del borde del botón */
+    background-color: #800080;
+    color: rgb(255, 255, 255);
+    border: none;
+    /* Espaciado y tamaño del botón */
+    padding: 10px 20px;
+    /* Cambio de cursor al pasar sobre el botón */
+    cursor: pointer;
+    /* Alineación y decoración del texto del botón */
+    text-align: center;
+    text-decoration: none;
+    /* Visualización en línea y tamaño del texto */
+    display: inline-block;
+    font-size: 16px;
+    /* Márgenes y duración de la transición al pasar el ratón sobre el botón */
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+/* Estilo cuando el mouse está sobre el botón */
+button:hover {
+    background-color: #800080;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilos para etiquetas */
+label {
+    /* Mostrar como bloque y margen superior */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para el formulario */
+form {
+    /* Color de fondo, borde, relleno, bordes redondeados, márgenes y sombra para el formulario */
+    background-color: #7272729b;
+    border: 1px solid #010000e7;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.988);
+    /* Familia de fuentes para el texto en el formulario */
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Estilos para elementos de selección */
+select {
+    /* Márgenes superior e inferior y ancho del 100% */
+    margin: 10px 0;
+    width: 100%;
+    /* Relleno y familia de fuentes para el texto en los elementos de selección */
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Estilos para campos de entrada */
+input {
+    /* Márgenes superior e inferior y ancho del 100% */
+    margin: 10px 0;
+    width: 100%;
+    /* Relleno y familia de fuentes para el texto en los campos de entrada */
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;  
+}
+
+/* Estilos para el resumen del pedido */
+#order-summary {
+    /* Alineación central del texto y márgenes */
+    text-align: center;
+    margin: 0 auto;
+    /* Ancho del 50%, color de fondo, borde, relleno, bordes redondeados, márgenes y sombra para el resumen del pedido */
+    width: 50%; 
+    background-color: #d9d8d99b;
+    border: 1px solid #010000e7;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.988);
+    /* Familia de fuentes para el texto en el resumen del pedido */
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Estilos para el precio total */
+#total-price {
+    /* Color y familia de fuentes para el texto en el precio total */
+    color: rgb(254, 251, 251);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    /* Color de fondo, borde, relleno, bordes redondeados, márgenes y sombra para el precio total */
+    background-color: #800080;
+}
